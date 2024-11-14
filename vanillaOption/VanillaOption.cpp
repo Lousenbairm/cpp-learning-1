@@ -37,3 +37,8 @@ VanillaOption& VanillaOption::operator=(const VanillaOption& rhs) {
     copy(rhs);
     return *this;
 }
+
+//Destructor
+VanillaOption::~VanillaOption(){
+
+}
